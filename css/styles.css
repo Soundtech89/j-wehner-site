@@ -1,0 +1,71 @@
+html {
+	background: url(../img/background-abstract.jpg) no-repeat center center fixed;
+	
+	background-size: 100% auto;
+	background-repeat: repeat;
+}
+
+body {
+	font-family: Helvetica, Arial;
+	font-size: 125%;
+	color: #FFF;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	color: #FFF;
+}
+
+img {
+	display: block;
+	border: 5px solid;
+	border-color: #FFF;
+	margin: 0 auto;
+	margin-top: 3%;
+	width: 220px;
+	height: 250px;
+}
+
+.intro {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	line-height: 1.25em;
+	color: #FFF;
+}
+
+.work-experience {
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 15%;
+	margin-right: 15%;
+	line-height: 1.25em;
+	color: #FFF;
+}
+
+.interests {
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 15%;
+	margin-right: 15%;
+	line-height: 1.25em;
+	color: #FFF;
+}
+
+.work-experience-list {
+	text-align: left;
+	margin-top: 2%;
+	margin-left: 40%;
+	list-style: square;
+	color: #FFF;
+}
+
+
+	
+	
+	
+	
+	
+	
