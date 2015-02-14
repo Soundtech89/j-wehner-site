@@ -11,61 +11,331 @@ body {
 	color: #FFF;
 }
 
-h1 {
-	text-align: center;
-	margin-top: 10%;
-	color: #FFF;
+/* Extra Small Devices - Phones */
+@media only screen and (min-width : 320px)
+{
+
+	h1 {
+		text-align: center;
+		font-size: 1.5em;
+		margin-top: 5%;
+		color: #FFF;
+	}
+
+	img {
+		display: block;
+		border: 5px solid;
+		border-color: #FFF;
+		margin: 0 auto;
+		margin-top: 3%;
+		width: 75px;
+		height: auto;
+	}
+
+	.intro {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: .75em;
+		line-height: 1em;
+		color: #FFF;
+	}
+
+	.work-experience {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: .75em;
+		line-height: 1em;
+		color: #FFF;
+	}	
+
+	.interests {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: .75em;
+		line-height: 1em;
+		color: #FFF;
+	}
+
+	.work-experience-list {
+    color: #FFF;
+    list-style: none;
+    text-align: left;
+    margin-top: 7%;
+  }
+
+  .work-experience-list li {
+    text-align: left;
+    padding: 10px;
+    font-size: 1em;
+	margin-left: -25%
+  }
+}	
+
+/* Small Devices - Phones */
+@media only screen and (min-width : 480px)
+{
+
+	h1 {
+		text-align: center;
+		font-size: 1.5em;
+		margin-top: 5%;
+		color: #FFF;
+	}
+
+	img {
+		display: block;
+		border: 5px solid;
+		border-color: #FFF;
+		margin: 0 auto;
+		margin-top: 3%;
+		width: 100px;
+		height: auto;
+	}
+
+	.intro {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}
+
+	.work-experience {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}	
+
+	.interests {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}
+
+	.work-experience-list {
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  .work-experience-list li {
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+  }
 }
 
-img {
-	display: block;
-	border: 5px solid;
-	border-color: #FFF;
-	margin: 0 auto;
-	margin-top: 3%;
-	width: 220px;
-	height: 250px;
+/* Small Devices - Tablets */
+@media only screen and (min-width : 768px)
+{
+
+	h1 {
+		text-align: center;
+		font-size: 1.5em;
+		margin-top: 5%;
+		color: #FFF;
+	}
+
+	img {
+		display: block;
+		border: 5px solid;
+		border-color: #FFF;
+		margin: 0 auto;
+		margin-top: 3%;
+		width: 220px;
+		height: 250px;
+	}
+
+	.intro {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}
+
+	.work-experience {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}	
+
+	.interests {
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}
+
+	.work-experience-list {
+    color: #FFF;
+    list-style: square;
+    text-align: left;
+    margin-top: 2%;
+	margin-left: 40%
+  }
+
+  .work-experience-list li {
+    text-align: left;
+    padding: 10px;
+    font-size: 1em;
+  }
 }
 
-.intro {
-	text-align: center;
-	margin-top: 5%;
-	margin-left: 15%;
-	margin-right: 15%;
-	line-height: 1.25em;
-	color: #FFF;
+/* Medium Devices - Desktops */
+@media only screen and (min-width : 992px)
+{
+
+	h1 {
+		text-align: center;
+		font-size: 1.5em;
+		margin-top: 5%;
+		color: #FFF;
+	}
+
+	img {
+		display: block;
+		border: 5px solid;
+		border-color: #FFF;
+		margin: 0 auto;
+		margin-top: 3%;
+		width: 220px;
+		height: 250px;
+	}
+
+	.intro {
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}
+
+	.work-experience {
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}	
+
+	.interests {
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}
+
+	.work-experience-list {
+    color: #FFF;
+    list-style: square;
+    text-align: left;
+    margin-top: 2%;
+	margin-left: 50%
+  }
+
+  .work-experience-list li {
+    text-align: left;
+    padding: 10px;
+    font-size: 1em;
+  }
 }
 
-.work-experience {
-	text-align: center;
-	margin-top: 2%;
-	margin-left: 15%;
-	margin-right: 15%;
-	line-height: 1.25em;
-	color: #FFF;
+/* Large Devices - Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+
+	h1 {
+		text-align: center;
+		font-size: 1.5em;
+		margin-top: 5%;
+		color: #FFF;
+	}
+
+	img {
+		display: block;
+		border: 5px solid;
+		border-color: #FFF;
+		margin: 0 auto;
+		margin-top: 3%;
+		width: 220px;
+		height: 250px;
+	}
+
+	.intro {
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}
+
+	.work-experience {
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}	
+
+	.interests {
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: #FFF;
+	}
+
+	.work-experience-list {
+    color: #FFF;
+    list-style: square;
+    text-align: left;
+    margin-top: 2%;
+	margin-left: 55%
+  }
+
+  .work-experience-list li {
+    text-align: left;
+    padding: 10px;
+    font-size: 1em;
+  }
 }
-
-.interests {
-	text-align: center;
-	margin-top: 2%;
-	margin-left: 15%;
-	margin-right: 15%;
-	line-height: 1.25em;
-	color: #FFF;
-}
-
-.work-experience-list {
-	text-align: left;
-	margin-top: 2%;
-	margin-left: 40%;
-	list-style: square;
-	color: #FFF;
-}
-
-
-	
-	
-	
-	
-	
-	
