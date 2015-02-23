@@ -75,6 +75,10 @@ body {
     font-size: 1em;
 	margin-left: -25%
   }
+  
+  .map {
+    display: none;
+  }
 }	
 
 /* Small Devices - Phones */
@@ -139,6 +143,10 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 1em;
+  }
+  
+  .map {
+    display: none;
   }
 }
 
@@ -206,6 +214,17 @@ body {
     padding: 10px;
     font-size: 1em;
   }
+  
+  .map {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 5%;
+	margin-bottom: 10%;
+  }
 }
 
 /* Medium Devices - Desktops */
@@ -272,6 +291,17 @@ body {
     padding: 10px;
     font-size: 1em;
   }
+  
+  .map {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 5%;
+	margin-bottom: 10%;
+  }
 }
 
 /* Large Devices - Wide Screens */
@@ -337,5 +367,16 @@ body {
     text-align: left;
     padding: 10px;
     font-size: 1em;
+  }
+  
+  .map {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 5%;
+	margin-bottom: 10%;
   }
 }
