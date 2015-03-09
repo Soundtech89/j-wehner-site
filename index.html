@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
      <head>
-		<link href="css/styles.css" type="text/css" rel="stylesheet"  />
 		<meta name="author" content="Joshua Wehner"/>
 		<meta name="description" content="My Portfolio site"/>
 		<meta name="keywords" content="about me, html, css, portfolio, resume, desktop support, storage and backup, server monitoring, unix servers, oracle weblogic, information technology"/>
@@ -10,10 +9,31 @@
 		<meta property="og:image" content="https://avatars0.githubusercontent.com/u/10519930?v=3&u=57fbee0dbe8adfadf136765f4c5a528a8fe06d00&s=140"/>
 		<meta property="og:url" content="http://jwehner.github.io"/>
 		<meta property="description" content="Portfolio website of Joshua Wehner."/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+		<link href="css/styles.css" type="text/css" rel="stylesheet"  />
 	 </head>
      <body>
-	<div class="container">
-		<div class="about">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>		
+	<div class="body-container">
+		<div class="about" id="about">
 			<h1>- About me -</h1>
 			<img src="img/mypic.jpg" alt="picture of Joshua & Marissa Wehner" title="Joshua & Marissa Wehner"/>
 			<p class="intro">My name is Josh Wehner. I got married last July to my beautiful wife, Marissa. I have been going to college since 2007, but I never have considered myself to be a true college student as I have always worked full time and gone to school part time.</p>		
@@ -27,10 +47,7 @@
 			</ul>					
 			<p class="interests"> When not working or doing school work I enjoy playing video games and playing board games. I also enjoy fishing, disc golf, and vacationing in the Upper Peninsula.</p>
 		</div>
-		<div class="contact-right">
-			<iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=North%20Engineering%20University%20of%20Toledo&key=AIzaSyDfodTtSVz_sP1qQtxWO1y22O1WzqwRCY0"></iframe>
-		</div>
-		<div class="contact-left">
+		<div class="contact" id="contact">
 			<div id="form-main">
 				<div id="form-div">
 					<form class="contact-form" id="form">
