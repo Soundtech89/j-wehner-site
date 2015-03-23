@@ -50,7 +50,7 @@
 		<div class="contact" id="contact">
 			<div id="form-main">
 				<div id="form-div">
-					<form class="contact-form" id="form">
+					<form class="contact-form" id="form" style="display: none;">
 						<p class="name">
 							<input name="name" type="text" class="contact-input" placeholder="Name" id="name" />
 						</p>
@@ -64,7 +64,13 @@
 							<input type="submit" value="SEND" id="button-orange"/>
 						</div>
 					</form>
+				<div class="toggle_demo">
+					<button class="btn btn-default" onclick="toggle('form');">Contact Me</button>
+				</div>
+				<script src="js/functions.js"></script>
 				</div>
 			</div>
+		</div>
+	</div>
 	</body>
 </html>
