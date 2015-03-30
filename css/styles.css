@@ -34,7 +34,7 @@ body {
 	color:white;
 	font-size:12px;
 }
-	
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px)
 {
@@ -56,6 +56,19 @@ body {
 		height: auto;
 	}
 
+	.tooltip {
+		position: relative;
+	}
+
+	.tooltip-text {
+		background-color: rgba(0, 0, 0, .7);    
+		color: white;
+		left: 0;
+		padding: 5px;
+		position: absolute;
+		top: 0;
+	}
+	
 	.intro {
 		text-align: center;
 		margin-top: 5%;
@@ -230,6 +243,19 @@ body {
 		margin-top: 3%;
 		width: 100px;
 		height: auto;
+	}
+	
+	.tooltip {
+		position: relative;
+	}
+
+	.tooltip-text {
+		background-color: rgba(0, 0, 0, .7);    
+		color: white;
+		left: 0;
+		padding: 5px;
+		position: absolute;
+		top: 0;
 	}
 
 	.intro {
@@ -408,7 +434,20 @@ body {
 		width: 220px;
 		height: 250px;
 	}
+	
+	.tooltip {
+		position: relative;
+	}
 
+	.tooltip-text {
+		background-color: rgba(0, 0, 0, .7);    
+		color: white;
+		left: 0;
+		padding: 5px;
+		position: absolute;
+		top: 0;
+	}
+	
 	.intro {
 		text-align: center;
 		margin-top: 5%;
@@ -592,6 +631,19 @@ body {
 		width: 220px;
 		height: 250px;
 	}
+	
+	.tooltip {
+		position: relative;
+	}
+
+	.tooltip-text {
+		background-color: rgba(0, 0, 0, .7);    
+		color: white;
+		left: 0;
+		padding: 5px;
+		position: absolute;
+		top: 0;
+	}
 
 	.intro {
 		text-align: center;
@@ -774,8 +826,21 @@ body {
 		border-color: #FFF;
 		margin: 0 auto;
 		margin-top: 3%;
-		width: 220px;
-		height: 250px;
+		width: 100px;
+		height: auto;
+	}
+	
+	.tooltip {
+		position: relative;
+	}
+
+	.tooltip-text {
+		background-color: rgba(0, 0, 0, .7);    
+		color: white;
+		left: 0;
+		padding: 5px;
+		position: absolute;
+		top: 0;
 	}
 
 	.intro {
