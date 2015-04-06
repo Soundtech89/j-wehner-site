@@ -9,6 +9,7 @@ body {
 	background: rgba(0,0,0,0);
 	width: 100%;
 	height: 100%;
+	font-size: 2em;
 }
 
 .navbar-inverse {
@@ -26,14 +27,34 @@ body {
 .btn {
 	float:left;
     position:relative;
-    left:38%;
+    left:34%;
 	margin-top: 8%;
 	border: #fbfbfb solid 2px;
 	cursor:pointer;
     background-color: #FF6600;
 	color:white;
-	font-size:12px;
+	font-size:20px;
 }
+
+
+/* Page Fonts */
+
+.about .title {
+font-family: 'Lobster', cursive;
+}
+
+.about .work-experience-list {
+font-family: 'Indie Flower', cursive;
+font-size: 1em;
+font-weight: bold;
+}
+
+.contact-toggle-button .btn {
+font-family: 'Indie Flower', cursive;
+font-weight: bold;
+}
+
+
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px)
@@ -110,7 +131,7 @@ body {
     text-align: left;
     padding: 10px;
     font-size: 1em;
-	margin-left: -25%
+	margin-left: -30%
   }
   
   .map {
@@ -420,7 +441,7 @@ body {
 
 	h1 {
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 2em;
 		margin-top: 5%;
 		color: #FFF;
 	}
@@ -617,7 +638,7 @@ body {
 
 	h1 {
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 2.5em;
 		margin-top: 5%;
 		color: #FFF;
 	}
@@ -815,7 +836,7 @@ body {
 
 	h1 {
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 2.5em;
 		margin-top: 5%;
 		color: #FFF;
 	}
