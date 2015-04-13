@@ -11,7 +11,7 @@ function toggle(element) {
   'use strict';
   
   // Find each tooltip
-  var tooltip = $('.tooltip');
+  var tooltip = $('img');
 
   tooltip.each(function() {
     // Create tooltip element
